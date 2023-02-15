@@ -48,7 +48,7 @@ function Register() {
   return (
     <div className='center'>
       <div className='auth'>
-        <h1>Register</h1>
+        <h1>Sign Up</h1>
         {error && <div className='auth__error'>{error}</div>}
         <form onSubmit={register} name='registration_form'>
           <input 
@@ -72,7 +72,7 @@ function Register() {
             placeholder='Confirm password'
             onChange={e => setConfirmPassword(e.target.value)}/>
 
-          <button type='submit'>Register</button>
+          <button type='submit'>Sign Up</button>
         </form>
         <span>
           Already have an account?  
