@@ -95,4 +95,11 @@ function Register() {
   )
 }
 
+
+
+document.getElementById("register-form").addEventListener("submit", function (event) {
+  event.preventDefault();
+  register();
+});
+
 export default Register
