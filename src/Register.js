@@ -83,8 +83,8 @@ function Register() {
             placeholder='Confirm password'
             onChange={e => setConfirmPassword(e.target.value)}/>
 
-          <button type='submit'>Sign Up</button>
-          <button type='button' onClick={signInWithGoogle}>Sign in with Google</button>
+          <button class="btn" type='submit' >Sign Up</button>
+          <button class="btn" type='button' onClick={signInWithGoogle}>Sign in with Google</button>
         </form>
         <span>
           Already have an account?  
