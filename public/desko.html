@@ -9,24 +9,116 @@
     <script defer src="register.js"></script>
   </head>
 
+
+
+
+
+
+
   <body>
-    <h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
-    <div class="container" id="container">
-      <div class="form-container sign-up-container">
-        <form id="register-form" action="#" method="POST">
-          <h1>Create Account</h1>
-          <div class="social-container">
-            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-          <span>or use your email for registration</span>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <button id="sign-up-button">Sign Up</button>
+
+<script>
+import {useState} from 'react'
+import './forms.css'
+import {auth} from './firebase'
+import {useNavigate, Link} from 'react-router-dom'
+import {createUserWithEmailAndPassword, sendEmailVerification, GoogleAuthProvider, signInWithPopup} from 'firebase/auth'
+import {useAuthValue} from './AuthContext'
+
+function Register() {
+
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
+  const [error, setError] = useState('')
+  const navigate = useNavigate()
+  const {setTimeActive} = useAuthValue()
+
+  const validatePassword = () => {
+    let isValid = true
+    if (password !== '' && confirmPassword !== ''){
+      if (password !== confirmPassword) {
+        isValid = false
+        setError('Passwords does not match')
+      }
+    }
+    return isValid
+  }
+
+  const register = e => {
+    e.preventDefault()
+    setError('')
+    if(validatePassword()) {
+      // Create a new user with email and password using firebase
+        createUserWithEmailAndPassword(auth, email, password)
+        .then(() => {
+          sendEmailVerification(auth.currentUser)   
+          .then(() => {
+            setTimeActive(true)
+            navigate('/verify-email')
+          }).catch((err) => alert(err.message))
+        })
+        .catch(err => setError(err.message))
+    }
+    setEmail('')
+    setPassword('')
+    setConfirmPassword('')
+  }
+
+  const signInWithGoogle = () => {
+    const provider = new GoogleAuthProvider()
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        console.log(result.user)
+      })
+      .catch((error) => {
+        console.log(error.message)
+      })
+  }
+
+  return (
+    <div className='center'>
+      <div className='auth'>
+        <h1>Sign Up</h1>
+        {error && <div className='auth__error'>{error}</div>}
+        <form onSubmit={register} name='registration_form'>
+          <input 
+            type='email' 
+            value={email}
+            placeholder="Enter your email"
+            required
+            onChange={e => setEmail(e.target.value)}/>
+
+          <input 
+            type='password'
+            value={password} 
+            required
+            placeholder='Enter your password'
+            onChange={e => setPassword(e.target.value)}/>
+
+            <input 
+            type='password'
+            value={confirmPassword} 
+            required
+            placeholder='Confirm password'
+            onChange={e => setConfirmPassword(e.target.value)}/>
+
+          <button type='submit'>Sign Up</button>
+          <button type='button' onClick={signInWithGoogle}>Sign in with Google</button>
         </form>
+        <span>
+          Already have an account?  
+          <Link to='/login'> Sign in</Link>
+        </span>
       </div>
+    </div>
+  )
+}
+</script>
+
+
+
+
       <div class="form-container sign-in-container">
         <form id="login-form" action="#" method="POST">
           <h1>Sign in</h1>
@@ -56,5 +148,87 @@
           </div>
         </div>
       </div>
+
+<script>
+
+import {useState} from 'react'
+import { Link } from 'react-router-dom'
+import './forms.css'
+import {signInWithEmailAndPassword, sendEmailVerification} from 'firebase/auth'
+import {auth} from './firebase'
+import {useNavigate} from 'react-router-dom'
+import {useAuthValue} from './AuthContext'
+
+
+function Login(){
+
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('') 
+  const [error, setError] = useState('')
+  const {setTimeActive} = useAuthValue()
+  const navigate = useNavigate()
+
+  const login = e => {
+    e.preventDefault()
+    signInWithEmailAndPassword(auth, email, password)
+    .then(() => {
+      if(!auth.currentUser.emailVerified) {
+        sendEmailVerification(auth.currentUser)
+        .then(() => {
+          setTimeActive(true)
+          navigate('/verify-email')
+        })
+      .catch(err => alert(err.message))
+    }else{
+      navigate('/')
+    }
+    })
+    .catch(err => setError(err.message))
+  }
+
+  return(
+    <div className='center'>
+      <div className='auth'>
+        <h1>Sign in</h1>
+        {error && <div className='auth__error'>{error}</div>}
+        <form onSubmit={login} name='login_form'>
+          <input 
+            type='email' 
+            value={email}
+            required
+            placeholder="Enter your email"
+            onChange={e => setEmail(e.target.value)}/>
+
+          <input 
+            type='password'
+            value={password}
+            required
+            placeholder='Enter your password'
+            onChange={e => setPassword(e.target.value)}/>
+
+          <button type='submit'>Login</button>
+        </form>
+        <p>
+          Sign Up instead? 
+          <Link to='/register'> Sign up</Link>
+        </p>
+      </div>
+    </div>
+  )
+}
+
+
+export default Login
+
+
+</script>
+
+
+
+
+
+
+
+
     </div>
   </body>
