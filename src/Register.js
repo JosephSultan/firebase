@@ -2,7 +2,7 @@ import {useState} from 'react'
 import './forms.css'
 import {auth} from './firebase'
 import {useNavigate, Link} from 'react-router-dom'
-import {createUserWithEmailAndPassword, sendEmailVerification} from 'firebase/auth'
+import {createUserWithEmailAndPassword, sendEmailVerification, GoogleAuthProvider, signInWithPopup} from 'firebase/auth'
 import {useAuthValue} from './AuthContext'
 
 function Register() {
@@ -45,6 +45,17 @@ function Register() {
     setConfirmPassword('')
   }
 
+  const signInWithGoogle = () => {
+    const provider = new GoogleAuthProvider()
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        console.log(result.user)
+      })
+      .catch((error) => {
+        console.log(error.message)
+      })
+  }
+
   return (
     <div className='center'>
       <div className='auth'>
@@ -73,6 +84,7 @@ function Register() {
             onChange={e => setConfirmPassword(e.target.value)}/>
 
           <button type='submit'>Sign Up</button>
+          <button type='button' onClick={signInWithGoogle}>Sign in with Google</button>
         </form>
         <span>
           Already have an account?  
