@@ -76,7 +76,7 @@ function Register() {
         </form>
         <span>
           Already have an account?  
-          <Link to='/login'>login</Link>
+          <Link to='/login'> Sign in</Link>
         </span>
       </div>
     </div>

@@ -36,7 +36,7 @@ function Login(){
   return(
     <div className='center'>
       <div className='auth'>
-        <h1>Log in</h1>
+        <h1>Sign in</h1>
         {error && <div className='auth__error'>{error}</div>}
         <form onSubmit={login} name='login_form'>
           <input 
@@ -56,8 +56,8 @@ function Login(){
           <button type='submit'>Login</button>
         </form>
         <p>
-          Don't have and account? 
-          <Link to='/register'>Create one here</Link>
+          Sign Up instead? 
+          <Link to='/register'> Sign up</Link>
         </p>
       </div>
     </div>
