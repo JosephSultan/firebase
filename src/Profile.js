@@ -208,7 +208,7 @@ function Profile() {
           <div class="participants">
             <img src="https://images.unsplash.com/photo-1587628604439-3b9a0aa7a163?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fHdvbWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="participant"></img>
             <img src="https://images.unsplash.com/photo-1596815064285-45ed8a9c0463?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1215&q=80" alt="participant"></img>
-            <button class="add-participant" style="color: #096c86;">
+            <button class="add-participant" style={{color: '#096c86'}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
                 <path d="M12 5v14M5 12h14" />
               </svg>
@@ -261,7 +261,7 @@ function Profile() {
       </div>
     </div>
     <div class="project-box-wrapper">
-      <div class="project-box" style="background-color: #c8f7dc;">
+      <div class="project-box" style={{backgroundColor: '#c8f7dc'}}>
         <div class="project-box-header">
           <span>December 10, 2020</span>
           <div class="more-wrapper">
@@ -288,7 +288,7 @@ function Profile() {
           <div class="participants">
             <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="participant"></img>
             <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="participant"></img>
-            <button class="add-participant" style="color: #34c471;">
+            <button class="add-participant" style={{color: '#34c471'}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
                 <path d="M12 5v14M5 12h14" />
               </svg>
@@ -320,7 +320,7 @@ function Profile() {
         <div class="box-progress-wrapper">
           <p class="box-progress-header">Progress</p>
           <div class="box-progress-bar">
-            <span class="box-progress" style="width: 40%; background-color: #4067f9"></span>
+            <span class="box-progress" style={{width: '40%', backgroundColor: '#4067f9'}}></span>
           </div>
           <p class="box-progress-percentage">40%</p>
         </div>
@@ -328,7 +328,7 @@ function Profile() {
           <div class="participants">
             <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="participant"></img>
             <img src="https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2555&q=80" alt="participant"></img>
-            <button class="add-participant" style="color: #4067f9;">
+            <button class="add-participant" style={{color: '#4067f9'}}>
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
                 <path d="M12 5v14M5 12h14" />
               </svg>
@@ -354,7 +354,7 @@ function Profile() {
   </div>
   <div class="messages">
     <div class="message-box">
-      <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="profile image"></img>
+      <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="profile"></img>
       <div class="message-content">
         <div class="message-header">
           <div class="name">Stephanie</div>
@@ -375,7 +375,7 @@ function Profile() {
       </div>
     </div>
     <div class="message-box">
-      <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="profile image"></img>
+      <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="profilex"></img>
       <div class="message-content">
         <div class="message-header">
           <div class="name">Mark</div>
@@ -396,7 +396,7 @@ function Profile() {
       </div>
     </div>
     <div class="message-box">
-      <img>src="https://images.unsplash.com/photo-1543965170-4c01a586684e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDZ8fG1hbnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="profile image"</img>
+      <img>src="https://images.unsplash.com/photo-1543965170-4c01a586684e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDZ8fG1hbnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="profiley"</img>
       <div class="message-content">
         <div class="message-header">
           <div class="name">David</div>
@@ -417,7 +417,7 @@ function Profile() {
       </div>
     </div>
     <div class="message-box">
-      <img src="https://images.unsplash.com/photo-1533993192821-2cce3a8267d1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fHdvbWFuJTIwbW9kZXJufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="profile image"></img>
+      <img src="https://images.unsplash.com/photo-1533993192821-2cce3a8267d1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fHdvbWFuJTIwbW9kZXJufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="profilel"></img>
       <div class="message-content">
         <div class="message-header">
           <div class="name">Jessica</div>

@@ -2,6 +2,8 @@
   "name": "firebase-user-auth",
   "version": "0.1.0",
   "private": true,
+
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -23,7 +25,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react/jsx-no-duplicate-props": [1, { "ignoreCase": false }]
+    }
   },
   "browserslist": {
     "production": [
