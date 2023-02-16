@@ -3,6 +3,7 @@ import './profile.css'
 function Profile() {
 
   return (
+    <div className="content" dangerouslySetInnerHTML={{__html: thisIsMyCopy}}>
     <div class="app-container">
     <div class="app-header">
       <div class="app-header-left">
@@ -152,6 +153,7 @@ function Profile() {
             </div>
             </div>
             </div>
+            </div> 
             </div> 
   )
 }
