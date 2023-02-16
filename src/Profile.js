@@ -1,5 +1,5 @@
 import './Profilenew.css';
-import { setupMeko } from './ProfileAssry';
+import { setupMeko } from './ProfileAssry.js';
 
 
 
