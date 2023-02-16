@@ -81,7 +81,7 @@ function Profile() {
         <div class="project-box-wrapper">
           <div class="project-box"  style={{ backgroundColor: '#fee4cb' }}>
             <div class="project-box-header">
-              <span>December 10, 2020</span>
+              <span> </span>
               <div class="more-wrapper">
                 <button class="project-btn-more">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
@@ -96,25 +96,19 @@ function Profile() {
           <p class="box-content-subheader">Prototyping</p>
         </div>
         <div class="box-progress-wrapper">
-          <p class="box-progress-header">Progress</p>
+          <p class="box-progress-header"> </p>
           <div class="box-progress-bar">
-            <span class="box-progress"  style={{ width: '60%',backgroundColor: '#ff942e' }}></span>
+            <span class="box-progress"  style={{ width: '100%',backgroundColor: '#ff942e' }}></span>
           </div>
-          <p class="box-progress-percentage">60%</p>
+          <p class="box-progress-percentage"> </p>
         </div>
         <div class="project-box-footer">
-          <div class="participants">
-            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" alt="participant"></img>
-            <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="participant"></img>
-            <button class="add-participant"  style={{ backgroundColor: '#ff942e' }}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
-                <path d="M12 5v14M5 12h14" />
-              </svg>
+        <button class="days-left" style={{ backgroundColor: '#ff942e' }} onClick={() => window.open('https://www.facebook.com/', '_blank')}>
+            Facebook sign in
             </button>
-          </div>
-          <div class="days-left" style={{ backgroundColor: '#ff942e' }}>
+            <div class="days-left" style={{ backgroundColor: '#ff942e' }}>
             2 Days Left
-          </div>
+            </div>
         </div>
       </div>
     </div>
