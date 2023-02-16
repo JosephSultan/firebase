@@ -147,8 +147,8 @@ function Profile() {
           </div>
         </div>
         <div class="project-box-content-header">
-          <p class="box-content-header">Receive your Dashboard</p>
-          <p class="box-content-subheader">within 24 hours</p>
+          <p class="box-content-header">Dashboard</p>
+          <p class="box-content-subheader">Receive it in 24hours</p>
         </div>
         <div class="box-progress-wrapper">
           <p class="box-progress-header"> </p>
