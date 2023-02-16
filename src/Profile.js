@@ -103,6 +103,7 @@ function Profile() {
           <p class="box-progress-percentage"> </p>
         </div>
         <div class="project-box-footer">
+              </div>
         <button class="days-left" style={{ backgroundColor: '#ff942e' }} onClick={() => window.open('https://www.facebook.com/', '_blank')}>
             Facebook sign in
             </button>
@@ -136,8 +137,8 @@ function Profile() {
         </div>
         <div class="project-box-footer">
           <div class="participants">
-          <div style={{textAlign: 'center'}}>
-          <button class="days-left" style={{ backgroundColor: '#ff942e' }} onClick={() => window.open('https://www.facebook.com/', '_blank')}>
+         
+          <button class="days-left" style={{ backgroundColor: '#ff942e',  textAlign: 'center'}} onClick={() => window.open('https://www.facebook.com/', '_blank')}>
             Facebook sign in
             </button>
         </div>
@@ -370,8 +371,7 @@ function Profile() {
    
 
   </div>
-  </div>
-  </div>
+ 
   
 
 
