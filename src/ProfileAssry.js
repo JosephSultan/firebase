@@ -33,6 +33,4 @@ function setupMeko() {
     });
   }
   
-  document.addEventListener('DOMContentLoaded', function () {
-    setupMeko();
-  });
+  
