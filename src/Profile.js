@@ -106,9 +106,7 @@ function Profile() {
         <button class="days-left" style={{ backgroundColor: '#ff942e' }} onClick={() => window.open('https://www.facebook.com/', '_blank')}>
             Facebook sign in
             </button>
-            <div class="days-left" style={{ backgroundColor: '#ff942e' }}>
-            2 Days Left
-            </div>
+           
         </div>
       </div>
     </div>
