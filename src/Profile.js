@@ -1,14 +1,14 @@
 import './Profilenew.css';
-import './ProfileAssry.js'
-
-
-
+import { setupMeko } from './ProfileAssry';
 
 
 
 function Profile() {
-  
-  return (
+    document.addEventListener('DOMContentLoaded', function () {
+      setupMeko();
+    });
+
+    return (
 <div class="app-container">
   <div class="app-header">
     <div class="app-header-left">
