@@ -2,7 +2,7 @@ import './profile.css'
 
 function Profile() {
 
-(render);
+  return (
     <div class="app-container">
     <div class="app-header">
       <div class="app-header-left">
@@ -453,6 +453,7 @@ function Profile() {
   </div>
   </div>
   </div>
+  )
 }
 
 
