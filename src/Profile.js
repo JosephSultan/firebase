@@ -301,7 +301,7 @@ function Profile() {
           </div>
         </div>
       </div>
-
+    </div>
   <div>
   <div class="messages-section">
     <button class="messages-close">
