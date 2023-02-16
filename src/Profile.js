@@ -1,45 +1,13 @@
 import './Profilenew.css';
-import './ProfileAssry'
+import './ProfileAssry.js'
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  var modeSwitch = document.querySelector('.mode-switch');
-
-  modeSwitch.addEventListener('click', function () {                     document.documentElement.classList.toggle('dark');
-    modeSwitch.classList.toggle('active');
-  });
-  
-  var listView = document.querySelector('.list-view');
-  var gridView = document.querySelector('.grid-view');
-  var projectsList = document.querySelector('.project-boxes');
-  
-  listView.addEventListener('click', function () {
-    gridView.classList.remove('active');
-    listView.classList.add('active');
-    projectsList.classList.remove('jsGridView');
-    projectsList.classList.add('jsListView');
-  });
-  
-  gridView.addEventListener('click', function () {
-    gridView.classList.add('active');
-    listView.classList.remove('active');
-    projectsList.classList.remove('jsListView');
-    projectsList.classList.add('jsGridView');
-  });
-  
-  document.querySelector('.messages-btn').addEventListener('click', function () {
-    document.querySelector('.messages-section').classList.add('show');
-  });
-  
-  document.querySelector('.messages-close').addEventListener('click', function() {
-    document.querySelector('.messages-section').classList.remove('show');
-  });
-});
 
 
 
 function Profile() {
+  
   return (
 <div class="app-container">
   <div class="app-header">
@@ -61,8 +29,7 @@ function Profile() {
           <path d="M13.73 21a2 2 0 0 1-3.46 0" /></svg>
       </button>
       <button class="profile-btn">
-        <img src="https://assets.codepen.io/3306515/IMG_2025.jpg" alt="pp"/>
-        <span>Aybüke C.</span>
+        <span>Best Team</span>
       </button>
     </div>
     <button class="messages-btn">
@@ -89,22 +56,14 @@ function Profile() {
     </div>
     <div class="projects-section">
       <div class="projects-section-header">
-        <p>Projects</p>
-        <p class="time">December, 12</p>
+        <p>Your App connections</p>
+        <p class="time">🚀</p>
       </div>
       <div class="projects-section-line">
         <div class="projects-status">
           <div class="item-status">
-            <span class="status-number">45</span>
-            <span class="status-type">In Progress</span>
-          </div>
-          <div class="item-status">
-            <span class="status-number">24</span>
-            <span class="status-type">Upcoming</span>
-          </div>
-          <div class="item-status">
-            <span class="status-number">62</span>
-            <span class="status-type">Total Projects</span>
+            <span class="status-number">4</span>
+            <span class="status-type">Simple steps to connect to SLA Dive</span>
           </div>
         </div>
         <div class="view-actions">
