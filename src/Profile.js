@@ -5,7 +5,6 @@ import './profile.css'
 
 
 function Profile() {
-  const {currentUser} = useAuthValue()
 
   return (
     <div class="app-container">
