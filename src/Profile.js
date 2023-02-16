@@ -1,7 +1,8 @@
-<html>
-  <body>
-    
- 
+import './profile.css'
+
+function Profile() {
+
+(render);
     <div class="app-container">
     <div class="app-header">
       <div class="app-header-left">
@@ -452,8 +453,7 @@
   </div>
   </div>
   </div>
-  )
 }
 
-</body>
-</html>
+
+export default Profile
