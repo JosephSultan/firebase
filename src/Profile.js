@@ -8,57 +8,57 @@ function Profile() {
         <div id="sidebar-nav">
           <ul>
             <li className="active">
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-dashboard"></i> Dashboard
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-desktop"></i> My Website
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-usd"></i> Ecommerce
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-pencil-square-o"></i> My Blog
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-sitemap"></i> SEO Tools
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-line-chart"></i> Reporting
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-comments-o"></i>Social Marketing
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-map-marker"></i> Get Traffic
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-users"></i> Employees
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-calendar-o"></i> Reservations
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://sladiver.netlify.app/">
                 <i className="fa fa-calendar"></i> Calendar
               </a>
             </li>
@@ -94,9 +94,6 @@ function Profile() {
           </div>
           <div className="header-profile">
             <div className="profile-name">John Doe</div>
-            <div className="profile-image">
-              <img src="images/profile.jpg" alt="profile picture" />
-            </div>
           </div>
         </div>
         <div id="main">
