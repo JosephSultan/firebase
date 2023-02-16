@@ -148,7 +148,7 @@ function Profile() {
         </div>
         <div class="project-box-content-header">
           <p class="box-content-header">Dashboard</p>
-          <p class="box-content-subheader">Receive it in 24hours</p>
+          <p class="box-content-subheader">In 24hours</p>
         </div>
         <div class="box-progress-wrapper">
           <p class="box-progress-header"> </p>
@@ -187,13 +187,14 @@ function Profile() {
       <div class="message-content">
         <div class="message-header">
           <div class="name"> </div>
+        
         </div>
         <p class="message-line">
-   
-             </p>
+          I got your first assignment. It was quite good. 🥳 We can continue with the next assignment.
+        </p>
         <p class="message-line time">
-             
-              </p>
+           
+        </p>
       </div>
     </div>
    
