@@ -113,7 +113,7 @@ function Profile() {
     <div class="project-box-wrapper">
       <div class="project-box" style={{ backgroundColor: '#e9e7fd'}}>
         <div class="project-box-header">
-          <span>December 10, 2020</span>
+          <span> </span>
           <div class="more-wrapper">
             <button class="project-btn-more">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
@@ -130,9 +130,9 @@ function Profile() {
         <div class="box-progress-wrapper">
           <p class="box-progress-header">Progress</p>
           <div class="box-progress-bar">
-            <span class="box-progress" style={{width: '50%', backgroundColor: '#4f3ff0'}}></span>
+            <span class="box-progress" style={{width: '100%', backgroundColor: '#4f3ff0'}}></span>
           </div>
-          <p class="box-progress-percentage">50%</p>
+          <p class="box-progress-percentage"> </p>
         </div>
         <div class="project-box-footer">
           <div class="participants">
@@ -153,7 +153,7 @@ function Profile() {
     <div class="project-box-wrapper">
       <div class="project-box">
         <div class="project-box-header">
-          <span>December 10, 2020</span>
+          <span> </span>
           <div class="more-wrapper">
             <button class="project-btn-more">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
@@ -170,9 +170,9 @@ function Profile() {
         <div class="box-progress-wrapper">
           <p class="box-progress-header">Progress</p>
           <div class="box-progress-bar">
-            <span class="box-progress" style={{width: '80%', backgroundColor: '#096c86"'}}></span>
+            <span class="box-progress" style={{width: '100%', backgroundColor: '#096c86"'}}></span>
           </div>
-          <p class="box-progress-percentage">80%</p>
+          <p class="box-progress-percentage"> </p>
         </div>
         <div class="project-box-footer">
           <div class="participants">
@@ -190,22 +190,13 @@ function Profile() {
         </div>
       </div>
     </div>
-    <div class="project-box-wrapper">
-      <div class="project-box" style={{backgroundColor: '#ffd3e2'}}>
-        <div class="project-box-header">
-          <span>December 10, 2020</span>
-          <div class="more-wrapper">
-            <button class="project-btn-more">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                <circle cx="12" cy="12" r="1" />
-                <circle cx="12" cy="5" r="1" />
-                <circle cx="12" cy="19" r="1" /></svg>
-            </button>
-          </div>
-        </div>
+  
        
-    </div>
-  </div>
+
+
+
+
+
 </div>
 <div class="messages-section">
   <button class="messages-close">
