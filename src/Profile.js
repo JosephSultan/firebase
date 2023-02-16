@@ -147,11 +147,11 @@ function Profile() {
           </div>
         </div>
         <div class="project-box-content-header">
-          <p class="box-content-header">Svg Animations</p>
-          <p class="box-content-subheader">Prototyping</p>
+          <p class="box-content-header">Receive your Dashboard</p>
+          <p class="box-content-subheader">Your dashboard will be sent to your email in 24 hours</p>
         </div>
         <div class="box-progress-wrapper">
-          <p class="box-progress-header">Progress</p>
+          <p class="box-progress-header"> </p>
           <div class="box-progress-bar">
             <span class="box-progress" style={{width: '100%', backgroundColor: '#096c86"'}}></span>
           </div>
@@ -159,9 +159,7 @@ function Profile() {
         </div>
         <div class="project-box-footer">
           <div class="participants">
-          <button class="days-left" style={{ backgroundColor: '#ff942e' }} onClick={() => window.open('https://sladive.tk/slack', '_blank')}>
-            Add to Slack
-            </button>
+         
        
         </div>
       </div>
