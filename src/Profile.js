@@ -4,7 +4,7 @@ import './profile.css'
 function Profile() {
 
   return (
-   <div> <link> href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'</link>
+   <div> <link> href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' </link>
 
     <form method="post" action="index.html">
     <div class="box">
