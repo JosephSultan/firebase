@@ -1,5 +1,5 @@
 import './Profilenew.css';
-
+import { signOut } from 'firebase/auth' 
 
 
 function Profile() {
@@ -21,7 +21,7 @@ function Profile() {
       </button>
       
       <button class="profile-btn">
-        <span>Best Team</span>
+      <span onClick={() => signOut(auth)}>Sign Out</span>
       </button>
     </div>
     <button class="messages-btn">
