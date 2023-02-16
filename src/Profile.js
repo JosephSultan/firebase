@@ -1,4 +1,6 @@
 import './profile.css'
+import 'thisIsMyCopy.html'
+
 
 function Profile() {
 
