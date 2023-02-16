@@ -13,7 +13,7 @@ function Profile() {
           <circle cx="11" cy="11" r="8"></circle>
           <path d="M21 21l-4.35-4.35"></path>
         </svg>
-      </div>
+      </div> 
     </div>
     <div class="app-header-right">
       <button class="mode-switch" title="Switch Theme">
