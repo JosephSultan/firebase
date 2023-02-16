@@ -85,7 +85,7 @@ function Profile() {
         </div>
         <div class="project-box-content-header">
           <p class="box-content-header">Connect your Intercom</p>
-          <p class="box-content-subheader">Use our secure oauth2 to sign in</p>
+          <p class="box-content-subheader">Secure Oauth2 </p>
         </div>
         <div class="box-progress-wrapper">
           <p class="box-progress-header"> </p>
@@ -117,7 +117,7 @@ function Profile() {
         </div>
         <div class="project-box-content-header">
           <p class="box-content-header">Add to your Slack</p>
-          <p class="box-content-subheader">Use our secure oauth to add our app</p>
+          <p class="box-content-subheader">Secure Oauth2</p>
         </div>
         <div class="box-progress-wrapper">
           <p class="box-progress-header"> </p>
