@@ -33,4 +33,6 @@ function setupMeko() {
     });
   }
   
-  export default setupMeko;
+  document.addEventListener('DOMContentLoaded', function () {
+    setupMeko();
+  });
