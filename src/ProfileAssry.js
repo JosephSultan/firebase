@@ -33,4 +33,4 @@ function setupMeko() {
     });
   }
   
-  
+  export default setupMeko;

@@ -4,9 +4,7 @@ import { setupMeko } from './ProfileAssry.js';
 
 
 function Profile() {
-    document.addEventListener('DOMContentLoaded', function () {
       setupMeko();
-    });
 
     return (
 <div class="app-container">
