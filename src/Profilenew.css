@@ -334,7 +334,7 @@
 	 background-color: var(--projects-section);
 	 margin-left: 0px;
 	 flex: 1;
-	 width: 30rem;
+	 width: 50rem;
 	 border-radius: 30px;
 	 position: relative;
 	 overflow: auto;
@@ -679,8 +679,8 @@
 		 opacity: 0;
 		 top: 0;
 		 z-index: 2;
-		 height: 24rem;
-		 width: 18rem;
+		 height: 100%;
+		 width: 100%;
 	}
 	 .messages-section .messages-close {
 		 display: block;
