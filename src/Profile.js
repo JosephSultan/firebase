@@ -190,7 +190,7 @@ function Profile() {
         
         </div>
         <p class="message-line">
-          Got any question at all or need some guidance_ Feel free to reach out to us now!
+            
         </p>
         <p class="message-line time">
            
