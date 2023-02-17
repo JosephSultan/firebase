@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 500px;
   border: 1px solid #dcdcdc;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 10px auto;
 }
 
 .auth__success{
