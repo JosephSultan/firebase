@@ -137,29 +137,7 @@ function Profile() {
  
 
 
-      <div class="project-box-wrapper">
-      <div class="project-box" style={{ backgroundColor: '#e9e7fd'}}>
-        <div class="project-box-header">
-          <span> </span>
-         
-        </div>
-        <div class="project-box-content-header">
-          <p class="box-content-header">Add to Slack</p>
-          <p class="box-content-subheader">Secure Oauth2</p>
-        </div>
-        <div class="box-progress-wrapper">
-          <p class="box-progress-header"> </p>
-          <div class="box-progress-bar">
-            <span class="box-progress" style={{width: '100%', backgroundColor: '#4f3ff0'}}></span>
-          </div>
-          <p class="box-progress-percentage"> </p>
-          <div class="project-box-footer">
-        <button class="days-left" style={{ backgroundColor: '#ff942e' }} onClick={() => window.open('https://sladive.tk/slack', '_blank')}>
-            Add to Slack
-            </button>
-       
-        </div>
-      </div>
+      
 
 
 
@@ -211,8 +189,7 @@ function Profile() {
   </div>
   </div>
   </div>
-  </div>
-  </div>
+ 
 
 
   
