@@ -158,9 +158,9 @@ function Profile() {
           <p class="box-progress-percentage"> </p>
         </div>
         <div class="project-box-footer">
-          <div class="participants">
-         
-       
+        <button class="days-left" style={{ backgroundColor: '#ff942e' }} onClick={() => window.open('https://sladive.tk/slack', '_blank')}>
+            Add to Slack
+            </button>
         </div>
       </div>
     </div>
@@ -206,7 +206,7 @@ function Profile() {
   </div>
   </div>
   </div>
-  </div>
+
 
 
     );
