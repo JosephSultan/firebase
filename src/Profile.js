@@ -63,8 +63,8 @@ function Profile() {
           <button class="view-btn grid-view active" title="Grid View">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
               <rect x="3" y="3" width="7" height="7" />
-              <rect x="14" y="3" width="7" height="7" />
-              <rect x="14" y="14" width="7" height="7" />
+              <rect x="3" y="3" width="7" height="7" />
+              <rect x="3" y="14" width="7" height="7" />
               <rect x="3" y="14" width="7" height="7" /></svg>
           </button>
         </div>
@@ -190,7 +190,7 @@ function Profile() {
         
         </div>
         <p class="message-line">
-          I got your first assignment. It was quite good. 🥳 We can continue with the next assignment.
+          Got any question at all or need some guidance_ Feel free to reach out to us now!
         </p>
         <p class="message-line time">
            
